@@ -1,0 +1,15 @@
+#./tridentctl create backend --filename backend-ontap-nas.yaml -n trident
+{
+    "version": 1,
+    "storageDriverName": "ontap-nas",
+    "backendName": "BackendForNAS",
+    "managementLIF": "management.fs****",
+    "dataLIF": "svm-****",
+    "svm": "svm_****",
+    "username": "GENERIC FSx for ONTAP admin name by default",
+    "password": "Your FSx for ONTAP password",
+     "limitVolumeSize": "50Gi",
+      "defaults": {
+          "spaceReserve": "none",
+                   }
+}
