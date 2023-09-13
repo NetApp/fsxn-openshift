@@ -1,3 +1,4 @@
 0-Initial_setup/backend-ontap-nas.json
 0-Initial_setup/backend-san.json
 0-Initial_setup/nas-backend_QoS.yaml
+files/backend-ontap-nas.json
